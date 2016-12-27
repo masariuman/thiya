@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FORMULIR</title>
+		<link href="../css/costum2" rel="stylesheet">
+
+	</head>
+	<body>
+		<div class="kotak_full">
+			<div class="header">
+				<b>FORMULIR PENDAFTARAN</b>	
+			</div>	
+			<div>
+				<center><table border="0" width="90%" cellpadding="20" cellspacing="0">
+			      <tr>
+			        <td>
+			          <table border="0" width="100%" cellpadding="20" cellspacing="0">
+			            <tr>
+			              <td>
+			                <form action="hasil.php" method="post" name="biodata" onsubmit="return cek()">
+			                  <center><table border='0' style='border-collapse:collapse;' cellpadding='5' cellspacing='0'>
+			                    <tr>
+			                      <td style="padding: 6px 10px;" valign='center'>NAMA</td><td>:</td><td><input type="text" name="nama"></td>
+			                    </tr>
+			                    <tr>
+			                      <td style="padding: 6px 10px;" valign='center'>PEKERJAAN</td><td>:</td><td><input type="text" name="pekerjaan" ></td>
+			                    </tr>
+			                    <tr>
+			                      <td style="padding: 6px 10px;" valign='center'>TEMPAT, TANGGAL LAHIR</td><td>:</td><td><input type="text" name="tempat"></td><td><input type="date" name="tanggal"></td>
+			                    </tr>
+			                      <td style="padding: 6px 10px;" valign='center'>JENIS KELAMIN</td><td>:</td><td class="styled-select"><select id="soflow"  name="jenis_kelamin">
+			                            <option value="">-- Klik Untuk Memilih --</option>
+			                            <option value="LAKI-LAKI">LAKI-LAKI</option>
+			                            <option value="PEREMPUAN">PEREMPUAN</option>
+			                            <option value="LAINNYA">LAINNYA</option>
+			                          </select></td>
+			                    </tr>
+			                    <tr>
+			                      <td style="padding: 6px 10px;" valign='center'>AGAMA</td><td>:</td><td><select id="soflow"  name="agama">
+			                            <option value="">-- Klik Untuk Memilih --</option>
+			                            <option value="ISLAM">ISLAM</option>
+			                            <option value="KRISTEN">KRISTEN</option>
+			                            <option value="KATOLIK">KATOLIK</option>
+			                            <option value="HINDU">HINDU</option>
+			                            <option value="BUDHA">BUDHA</option>
+			                            <option value="ALIRAN SESAT">ALIRAN SESAT</option>
+			                          </select></td>
+			                    </tr>
+			                    <tr>
+			                      <td style="padding: 6px 10px;" valign='center'>STATUS</td><td>:</td><td><select id="soflow"  name="status">
+			                            <option value="">-- Klik Untuk Memilih --</option>
+			                            <option value="MENIKAH">MENIKAH</option>
+			                            <option value="BELUM MENIKAH">BELUM MENIKAH</option>
+			                          </select></td>
+			                    </tr>
+			                    <tr>
+			                      <td style="padding: 6px 10px;" valign='center'>ALAMAT LENGKAP</td><td>:</td><td><input type="text" name="alamat" ></td>
+			                    </tr>
+			                    <tr>
+			                      <td style="padding: 6px 10px;" valign='center'>KEBANGSAAN</td><td>:</td><td><input type="text" name="kebangsaan" ></td>
+			                    </tr>
+			                    <tr>
+			                      <td style="padding: 6px 10px;" valign='center'>NOMOR HP</td><td>:</td><td><input type="text" name="nomor_hp" ></td>
+			                    </tr>
+			                    <tr>
+			                      <td style="padding: 6px 10px;" valign='center'>EMAIL</td><td>:</td><td><input type="text" name="email" ></td>
+			                    </tr>
+			                    <tr>
+			                      <td style="padding: 6px 10px;" valign='center'>WEB</td><td>:</td><td><input type="text" name="web" ></td>
+			                    </tr>
+			                    <tr>
+			                      <td style="padding: 6px 10px;" valign='center'>FOTO</td><td>:</td><td><input type="file" name="foto" ></td>
+			                    </tr>
+			                    <tr>
+			                      <td colspan="2" align="right"><input class="button1" type="submit" value='SIMPAN' name='kirim' style="width:130px; height:50px"></td>
+			                      <td colspan="2" align="left"> <input class="button1" type="reset" name="reset" value="RESET" style="width:130px; height:50px"></td>
+			                    </tr>
+			                  </table>
+			                </form>
+			              </td>
+			            </tr>
+			          </table>
+			        </td>
+			      </tr>
+			    </table>
+			</div>
+
+			<!-- FOOTER -->
+		    <footer>
+		      <div class="container"> <!-- Row -->
+		        <div class="kiri"> THIYA.COM </div>
+		        <div class="kanan"> Copyright 2015 THIYA. Designed by <a href="#">Arif Setiawan & Rudi Hartono </a></div>
+		      </div> <!-- /Container -->
+		    </footer>
+		    <!-- /FOOTER -->
+
+		</div>
+	</body>
+</html>
